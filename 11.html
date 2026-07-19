@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>One1 | Wear Greatness</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.75);
+backdrop-filter:blur(12px);
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+background:#fff;
+padding:6px;
+}
+
+.logo h2{
+font-size:28px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-size:16px;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#cfcfcf;
+}
+
+.shop-btn{
+background:#fff;
+color:#000;
+padding:12px 24px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.shop-btn:hover{
+transform:scale(1.05);
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:0 8%;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+}
+
+.hero-content{
+max-width:850px;
+}
+
+.hero h1{
+font-size:70px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+color:#ddd;
+margin-bottom:35px;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.btn1{
+padding:16px 40px;
+background:#fff;
+color:#000;
+text-decoration:none;
+font-weight:700;
+border-radius:40px;
+}
+
+.btn2{
+padding:16px 40px;
+border:2px solid #fff;
+color:#fff;
+text-decoration:none;
+font-weight:700;
+border-radius:40px;
+}
+
+.btn1:hover,
+.btn2:hover{
+transform:translateY(-3px);
+transition:.3s;
+}
+
+.about{
+padding:90px 8%;
+text-align:center;
+background:#111;
+}
+
+.about h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.about p{
+max-width:900px;
+margin:auto;
+font-size:18px;
+line-height:1.9;
+color:#ccc;
+}
+
+@media(max-width:768px){
+
+header{
+padding:15px 20px;
+}
+
+nav{
+display:none;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.logo h2{
+font-size:24px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<!-- Replace logo.png with your logo -->
+<img src="logo.png">
+
+<h2>One1</h2>
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Shop</a></li>
+
+<li><a href="#">Collections</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<a href="#" class="shop-btn">Shop Now</a>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Wear Greatness</h1>
+
+<p>
+Discover premium fashion designed for confidence,
+comfort and everyday greatness.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#" class="btn1">Explore Collection</a>
+
+<a href="#" class="btn2">New Arrivals</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>Welcome to One1</h2>
+
+<p>
+
+One1 is more than a clothing brand.
+It represents confidence, ambition and modern fashion.
+Every collection is designed with premium quality,
+timeless style and comfort to help you
+Wear Greatness every day.
+
+</p>
+
+</section>
+
+</body>
+
+</html>
